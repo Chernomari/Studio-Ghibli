@@ -1,0 +1,184 @@
+body{
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    background-image:url('fundo.jpg');
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    
+}
+main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+}
+p{
+    font-family: 'Irish Grover', cursive;
+}
+#pretitulo1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 350%;
+    padding: 0px;
+}
+#pretitulo2{
+    font-family: 'Comforter', cursive;
+    font-size: 150%;
+    padding: 0px;
+
+}
+#titulo{
+    font-size: 350%;
+    font-family: 'Dancing Script', cur35ve;
+    text-align: center;
+    padding: 0px;
+}
+.titulos{
+    font-family: 'Irish Grover', cursive;
+    font-size: 200%;
+    padding: 0px;
+    margin-top: 2px;
+    margin: 0px;
+    color: black;
+    text-align: center;
+}
+.subtitulos{
+    font-family: 'Irish Grover', cursive;
+    font-size: 150%;
+    color: black;
+    text-align: justify;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+nav ul{
+    margin-top: 5px;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+    padding: 4px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Irish Grover', cursive;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: #168AAD;
+    border-bottom: 2px solid black;
+}
+#cabeçalho{
+    background-color: black;
+    border-top: 2px solid white;
+    padding: 0px;
+    padding-bottom: 5px;
+    background-size: cover;
+}
+.paragrafos{
+    margin-top: 10px;
+    padding-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#Filme{
+    color: black;
+}
+#Personagens{
+    color: black;
+}
+
+#Curiosidades{
+    color: black;
+}
+#Autor{
+    color: black;
+}
+#Indicações{
+    color: black;
+}
+a:link {
+    color: white;
+    text-decoration:none;
+  }
+  a:visited {
+    text-decoration:none;
+  }
+  a:hover {
+	text-decoration: none;
+	color: black;
+	}
+a:active {
+	text-decoration: none
+	}
+.imgdireita{
+    float: right;
+    padding: 0px;
+    margin: 18px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-image-repeat: repeat;
+}
+.imgesquerda{
+    float: left;
+    padding: 5px;
+    margin: 2px;
+    padding: 0px;
+    margin: 22px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-left: 2px;
+    margin-right: 5px;
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-image-repeat: repeat;
+}
